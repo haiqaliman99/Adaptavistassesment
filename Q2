@@ -1,0 +1,7 @@
+if (issue.getIssueType().name != "Sub-task") { 
+    def subTaskSum = 0
+    issue.getSubTaskObjects()?.each { 
+            subTaskSum += 1
+    }
+    return subTaskSum
+}
