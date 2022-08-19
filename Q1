@@ -1,0 +1,9 @@
+import com.atlassian.jira.component.ComponentAccessor
+import com.atlassian.jira.issue.CustomFieldManager
+import com.atlassian.jira.issue.fields.CustomField
+
+def csA = ComponentAccessor.getCustomFieldManager().getCustomFieldObjectByName("A")
+
+def csB = ComponentAccessor.getCustomFieldManager().getCustomFieldObjectByName("B")
+
+ return issue.getCustomFieldValue(csA)+issue.getCustomFieldValue(csB) 
