@@ -1,0 +1,7 @@
+import com.atlassian.jira.component.ComponentAccessor
+import com.atlassian.jira.issue.comments.CommentManager
+
+def commentManager = ComponentAccessor.getCommentManager()
+def comments = commentManager.getComments(issue).sort { it.getUpdated() }
+def lastUpdatedComment = comments.last()
+String body = comment.getBody()
