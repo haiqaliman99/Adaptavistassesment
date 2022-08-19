@@ -1,0 +1,17 @@
+Hi Ms Suhanisa,
+
+Thank you for your patience.
+
+My name is Haiqal , here to assist.
+
+Please be informed that we have resolved the reported issue and below are our findings for your reference:
+
+Issue: Create a custom Scripted Field which returns Jira Issues found as a result of a JQL query
+Resolution :To background reindex all issues containing script fields you can use the following script, which you could either run in the console or attach to the ReindexAllCompletedEvent using a script listener.
+You can read more about JQL Searches in Script Fields in this links https://scriptrunner.adaptavist.com/4.3.14/jira/scripted-fields.html.
+
+We hope we have resolved your issue.
+
+Do let us know if you have any inquiries or need further assistance from us. We will be more than happy to help you.
+
+Thank you from Adaptavist,
